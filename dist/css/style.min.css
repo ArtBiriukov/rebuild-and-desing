@@ -643,3 +643,28 @@ section {
   width: 280px;
   padding: 10px 0;
 }
+
+.footer {
+  padding: 24px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1.5px solid #222222;
+}
+.footer__copy-white {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+}
+.footer__link {
+  font-family: "Gilroy";
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 20px;
+  color: #222222;
+  transition: all 0.3s ease;
+}
+.footer__link:hover {
+  color: #C6876D;
+}
