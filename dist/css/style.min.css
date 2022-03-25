@@ -467,16 +467,24 @@ section {
   border-bottom: 1px solid #EBEBEB;
   background: transparent;
 }
+.header__center {
+  position: relative;
+  width: 100%;
+}
 .header__body {
+  position: absolute;
+  height: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
-  display: none;
+  justify-content: center;
+  opacity: 0;
   transform: scale(0);
   transition: all 0.3s ease;
 }
 .header__body.show {
+  opacity: 1;
   transform: scale(1);
-  display: flex;
 }
 .header__item {
   width: 86px;
