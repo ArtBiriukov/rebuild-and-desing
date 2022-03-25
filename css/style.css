@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;
-
-500&display=swap");
 @font-face {
   font-family: "Gilroy";
   src: url("../fonts/Gilroy-Extrabold.woff");
@@ -96,7 +93,7 @@ abbr[title] {
   text-decoration: underline;
   /* 2 */
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
   /* 2 */
 }
 
@@ -450,9 +447,9 @@ section {
   line-height: 40px;
   margin-bottom: 48px;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .title::before {
@@ -607,7 +604,7 @@ section {
   color: #C6876D;
 }
 
-.header__address > *:not(:last-child) {
+.header__address>*:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -651,6 +648,7 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 .main-screen__top {
   position: relative;
@@ -800,7 +798,7 @@ section {
   -ms-grid-rows: 270px 10px 270px 10px 270px 10px 270px;
   grid-template-rows: repeat(4, 270px);
   gap: 10px;
-      grid-template-areas: "card-1 card-1 card-2" "card-3 card-4 card-2" "card-5 card-6 card-7" "card-5 card-8 card-8";
+  grid-template-areas: "card-1 card-1 card-2""card-3 card-4 card-2""card-5 card-6 card-7""card-5 card-8 card-8";
 }
 
 .portfolio__card {
@@ -851,7 +849,7 @@ section {
   color: #FFFFFF;
 }
 
-.card__content > *:not(:last-child) {
+.card__content>*:not(:last-child) {
   margin-right: 32px;
 }
 
